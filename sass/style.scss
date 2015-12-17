@@ -1,0 +1,36 @@
+/*
+Theme Name: Siat
+Theme URI: siat.com.br
+Author: Matheus Farias
+Author URI: siat.com.br
+Description:
+Version: 2016.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+// Import Compass CSS3
+@import "compass/css3";
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+// Import Bootstrap for Sass
+@import "bootstrap";
+// Import font-awesome
+@import "../js/vendor/font-awesome/scss/font-awesome";
+// Import animate css
+@import "js/vendor/animate.css/animate.min.css";
+/* ==========================================================================
+   Matheus Farias-
+   ========================================================================== */
+/* variables */
+$height:768px;
+
+/* mixins */
+@mixin vertical_center_padding ($height_content, $height_elemento) {
+  padding: ( ( $height_content - $height_elemento ) / 2 ) 0;
+}
