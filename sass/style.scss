@@ -31,122 +31,187 @@ Use it to make something cool, have fun, and share what you've learned with othe
 $height:768px;
 
 /* mixins */
-@mixin vertical_center_padding ($height_content, $height_elemento) {
-  padding: ( ( $height_content - $height_elemento ) / 2 ) 0;
+@mixin vertical_center_padding($height_content, $height_elemento) {
+  padding:(( $height_content - $height_elemento ) / 2) 0;
 }
-
 /* ajustes */
 .navbar-brand {
-  height: auto;
+  height:auto;
 }
 /* classes */
 .bg-white {
-  background: #ffffff;
+  background:#ffffff;
 }
-.logo{margin: 10px 0 0 10px;}
+.logo { margin:10px 0 0 10px; }
 .navbar-default .navbar-nav > li > a {
-  color: #000 !important;
-  margin: 0 30px;
+  color:#000 !important;
+  margin:0 30px;
 }
-.btn-danger {background-color: #000000;
-border-color: #000000;}
-.btn-danger:hover {background-color: #666666;
-border-color: #666666;}
+.btn-submit {
+  background-color:#000000;
+  border-color:#000000;
+}
+.btn-danger:hover { background-color:#666666;
+  border-color:#666666; }
 .form-control {
-  height: 34px;
-  background-color: #eee;
-  border: none;
+  height:34px;
+  background-color:#eee;
+  border:none;
 }
 .input-group {
   @include border-radius(4px, 4px);
-  background: rgb(255, 255, 255);
-  zoom: 1;
-  padding: 5px;
+  background:rgb(255, 255, 255);
+  zoom:1;
+  padding:5px;
 }
 .form-control {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
 }
 .form-control:focus {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
 }
 ::-webkit-input-placeholder {
-  color: #7C7C7C;
+  color:#7C7C7C;
 }
 :-moz-placeholder {
-  color: #7C7C7C;
+  color:#7C7C7C;
 }
 ::-moz-placeholder {
-  color: #7C7C7C;
+  color:#7C7C7C;
 }
 :-ms-input-placeholder {
-  color: #7C7C7C;
+  color:#7C7C7C;
 }
 .input-group-addon {
-  color: #7C7C7C;
-  border: none !important;
+  color:#7C7C7C;
+  border:none !important;
 }
 .mensagem .input-group-addon {
-  vertical-align: top;
+  vertical-align:top;
 }
 .row-no-margin {
-  margin: 0;
+  margin:0;
 }
 
+.crsl-nav {
+  width:100%;
+  position:relative;
+  a {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    width:15%;
+    height:50px;
+    line-height:50px;
+    vertical-align:middle;
+    text-align:center;
+    z-index:999;
+    display:block;
+    color:#000000;
+    &.right {
+      right:0;
+      left:auto;
+    }
+    &.left {
+      right:auto;
+      left:0;
+    }
+  }
+}
+.fa-envelope-square {
+  height:30px;
+  width:30px;
+  font-size:24px;
+  color:#2b542c;
+}
+.fa-facebook-square {
+  height:30px;
+  width:30px;
+  font-size:24px;
+  color:#2b669a;
+}
+.fa-rss-square {
+  height:30px;
+  width:30px;
+  font-size:24px;
+  color:#985f0d;
+}
 /* Tags Ajusts */
+
 * {
   @include box-sizing(border-box);
 }
 body {
-  background: url(img/partten_body_double_lined.png) repeat;
-  overflow-x: hidden;
-
+  background:url(img/partten_body_double_lined.png) repeat;
+  overflow-x:hidden;
 }
 input {
-  color: #7C7C7C;
+  color:#7C7C7C;
 }
 textarea {
-  color: #7C7C7C;
-  height: 94px !important;
-  resize: none;
-  border: none;
+  color:#7C7C7C;
+  height:94px !important;
+  resize:none;
+  border:none;
 }
 button {
-  border: none 0 #ffffff;
+  border:none 0 #ffffff;
 }
+/* 0.NavBar */
+nav#navbar-main {
+  a {
+    font-family:$headings-font-family;
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+}
+nav#navbar-footer {
+  a {
+    font-family:$headings-font-family;
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+}
+
 /* 1.Header */
 header#header {
-  overflow: hidden;
-  height: 397px;
+  overflow:hidden;
+  height:397px;
   .container {
-    padding: 0;
+    padding:0;
   }
   img {
-    width: 100%;
+    width:100%;
   }
 
 }
 /* 2.Article */
 article#home {
   button {
-    color: #ffffff;
-    height: 36px;
-    resize: none;
-    width: 100%;
+    color:#ffffff;
+    height:36px;
+    resize:none;
+    width:100%;
   }
   .badge {
-    background-color: #f71b1b;
+    background-color:#f71b1b;
   }
   h2 {
-    color: #f71b1b;
-    font-size: 20px;
-    font-weight: bold;
+    color:#f71b1b;
+    font-size:20px;
+    font-weight:bold;
   }
+}
+/* 5.Sections */
+section#parceiros {
+  position:relative;
+
 }
 /* 4.Footer */
 footer#footer {
-
 }
 /* 5.Agencia */
-#copy { background: #000000; padding: 10px 0; }
+#copy { background:#000000; padding:10px 0; }

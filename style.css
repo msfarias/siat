@@ -13,6 +13,7 @@ Text Domain: twentyfourteen
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Sans:400,700);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -175,7 +176,7 @@ td, th { padding: 0; }
   .table td, .table th { background-color: #fff !important; }
   /* line 94, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss */
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
-@font-face { font-family: 'Glyphicons Halflings'; src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?1450279544); src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?&1450279544#iefix) format("embedded-opentype"), url(fonts/bootstrap/glyphicons-halflings-regular.woff2?1450279544) format("woff2"), url(fonts/bootstrap/glyphicons-halflings-regular.woff?1450279544) format("woff"), url(fonts/bootstrap/glyphicons-halflings-regular.ttf?1450279544) format("truetype"), url(fonts/bootstrap/glyphicons-halflings-regular.svg?1450279544#glyphicons_halflingsregular) format("svg"); }
+@font-face { font-family: 'Glyphicons Halflings'; src: url(fonts/glyphicons-halflings-regular.eot?1450454544); src: url(fonts/glyphicons-halflings-regular.eot?&1450454544#iefix) format("embedded-opentype"), url(fonts/glyphicons-halflings-regular.woff2?1450454544) format("woff2"), url(fonts/glyphicons-halflings-regular.woff?1450454544) format("woff"), url(fonts/glyphicons-halflings-regular.ttf?1450454544) format("truetype"), url(fonts/glyphicons-halflings-regular.svg?1450454544#glyphicons_halflingsregular) format("svg"); }
 /* line 24, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon { position: relative; top: 1px; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: normal; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -975,7 +976,7 @@ td, th { padding: 0; }
 html { font-size: 10px; -webkit-tap-highlight-color: transparent; }
 
 /* line 27, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
-body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857; color: #333333; background-color: #fff; }
+body { font-family: "Droid Sans", Arial, sans-serif; font-size: 14px; line-height: 1.42857; color: #333333; background-color: #fff; }
 
 /* line 36, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
@@ -1018,7 +1019,7 @@ hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ee
 [role="button"] { cursor: pointer; }
 
 /* line 9, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Oswald", sans-serif; font-weight: 500; line-height: 1.1; color: inherit; }
 /* line 16, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small { font-weight: normal; line-height: 1; color: #777777; }
 
@@ -3363,7 +3364,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media (min-width: 992px) { /* line 149, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg { width: 900px; } }
 /* line 7, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip { position: absolute; z-index: 1070; display: block; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; line-break: auto; line-height: 1.42857; text-align: left; text-align: start; text-decoration: none; text-shadow: none; text-transform: none; white-space: normal; word-break: normal; word-spacing: normal; word-wrap: normal; font-size: 12px; opacity: 0; filter: alpha(opacity=0); }
+.tooltip { position: absolute; z-index: 1070; display: block; font-family: "Droid Sans", Arial, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; line-break: auto; line-height: 1.42857; text-align: left; text-align: start; text-decoration: none; text-shadow: none; text-transform: none; white-space: normal; word-break: normal; word-spacing: normal; word-wrap: normal; font-size: 12px; opacity: 0; filter: alpha(opacity=0); }
 /* line 18, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss */
 .tooltip.in { opacity: 0.9; filter: alpha(opacity=90); }
 /* line 19, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss */
@@ -3399,7 +3400,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .tooltip.bottom-right .tooltip-arrow { top: 0; left: 5px; margin-top: -5px; border-width: 0 5px 5px; border-bottom-color: #000; }
 
 /* line 6, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss */
-.popover { position: absolute; top: 0; left: 0; z-index: 1060; display: none; max-width: 276px; padding: 1px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; line-break: auto; line-height: 1.42857; text-align: left; text-align: start; text-decoration: none; text-shadow: none; text-transform: none; white-space: normal; word-break: normal; word-spacing: normal; word-wrap: normal; font-size: 14px; background-color: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+.popover { position: absolute; top: 0; left: 0; z-index: 1060; display: none; max-width: 276px; padding: 1px; font-family: "Droid Sans", Arial, sans-serif; font-style: normal; font-weight: normal; letter-spacing: normal; line-break: auto; line-height: 1.42857; text-align: left; text-align: start; text-decoration: none; text-shadow: none; text-transform: none; white-space: normal; word-break: normal; word-spacing: normal; word-wrap: normal; font-size: 14px; background-color: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 /* line 27, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.top { margin-top: -10px; }
 /* line 28, js/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss */
@@ -5597,91 +5598,120 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 /* variables */
 /* mixins */
 /* ajustes */
-/* line 39, sass/style.scss */
+/* line 38, sass/style.scss */
 .navbar-brand { height: auto; }
 
 /* classes */
-/* line 43, sass/style.scss */
+/* line 42, sass/style.scss */
 .bg-white { background: #ffffff; }
 
-/* line 46, sass/style.scss */
+/* line 45, sass/style.scss */
 .logo { margin: 10px 0 0 10px; }
 
-/* line 47, sass/style.scss */
+/* line 46, sass/style.scss */
 .navbar-default .navbar-nav > li > a { color: #000 !important; margin: 0 30px; }
 
-/* line 51, sass/style.scss */
-.btn-danger { background-color: #000000; border-color: #000000; }
+/* line 50, sass/style.scss */
+.btn-submit { background-color: #000000; border-color: #000000; }
 
-/* line 53, sass/style.scss */
+/* line 54, sass/style.scss */
 .btn-danger:hover { background-color: #666666; border-color: #666666; }
 
-/* line 55, sass/style.scss */
+/* line 56, sass/style.scss */
 .form-control { height: 34px; background-color: #eee; border: none; }
 
-/* line 60, sass/style.scss */
+/* line 61, sass/style.scss */
 .input-group { -moz-border-radius: 4px / 4px; -webkit-border-radius: 4px 4px; border-radius: 4px / 4px; background: white; zoom: 1; padding: 5px; }
 
-/* line 66, sass/style.scss */
+/* line 67, sass/style.scss */
 .form-control { -webkit-box-shadow: none; box-shadow: none; }
 
-/* line 70, sass/style.scss */
+/* line 71, sass/style.scss */
 .form-control:focus { -webkit-box-shadow: none; box-shadow: none; }
 
-/* line 74, sass/style.scss */
+/* line 75, sass/style.scss */
 ::-webkit-input-placeholder { color: #7C7C7C; }
 
-/* line 77, sass/style.scss */
+/* line 78, sass/style.scss */
 :-moz-placeholder { color: #7C7C7C; }
 
-/* line 80, sass/style.scss */
+/* line 81, sass/style.scss */
 ::-moz-placeholder { color: #7C7C7C; }
 
-/* line 83, sass/style.scss */
+/* line 84, sass/style.scss */
 :-ms-input-placeholder { color: #7C7C7C; }
 
-/* line 86, sass/style.scss */
+/* line 87, sass/style.scss */
 .input-group-addon { color: #7C7C7C; border: none !important; }
 
-/* line 90, sass/style.scss */
+/* line 91, sass/style.scss */
 .mensagem .input-group-addon { vertical-align: top; }
 
-/* line 93, sass/style.scss */
+/* line 94, sass/style.scss */
 .row-no-margin { margin: 0; }
 
-/* Tags Ajusts */
 /* line 98, sass/style.scss */
+.crsl-nav { width: 100%; position: relative; }
+/* line 101, sass/style.scss */
+.crsl-nav a { position: absolute; top: 0; left: 0; right: 0; width: 15%; height: 50px; line-height: 50px; vertical-align: middle; text-align: center; z-index: 999; display: block; color: #000000; }
+/* line 114, sass/style.scss */
+.crsl-nav a.right { right: 0; left: auto; }
+/* line 118, sass/style.scss */
+.crsl-nav a.left { right: auto; left: 0; }
+
+/* line 124, sass/style.scss */
+.fa-envelope-square { height: 30px; width: 30px; font-size: 24px; color: #2b542c; }
+
+/* line 130, sass/style.scss */
+.fa-facebook-square { height: 30px; width: 30px; font-size: 24px; color: #2b669a; }
+
+/* line 136, sass/style.scss */
+.fa-rss-square { height: 30px; width: 30px; font-size: 24px; color: #985f0d; }
+
+/* Tags Ajusts */
+/* line 144, sass/style.scss */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 101, sass/style.scss */
+/* line 147, sass/style.scss */
 body { background: url(img/partten_body_double_lined.png) repeat; overflow-x: hidden; }
 
-/* line 106, sass/style.scss */
+/* line 151, sass/style.scss */
 input { color: #7C7C7C; }
 
-/* line 109, sass/style.scss */
+/* line 154, sass/style.scss */
 textarea { color: #7C7C7C; height: 94px !important; resize: none; border: none; }
 
-/* line 115, sass/style.scss */
+/* line 160, sass/style.scss */
 button { border: none 0 #ffffff; }
 
+/* 0.NavBar */
+/* line 165, sass/style.scss */
+nav#navbar-main a { font-family: "Oswald", sans-serif; text-transform: uppercase; font-weight: bold; }
+
+/* line 172, sass/style.scss */
+nav#navbar-footer a { font-family: "Oswald", sans-serif; text-transform: uppercase; font-weight: bold; }
+
 /* 1.Header */
-/* line 119, sass/style.scss */
+/* line 180, sass/style.scss */
 header#header { overflow: hidden; height: 397px; }
-/* line 122, sass/style.scss */
+/* line 183, sass/style.scss */
 header#header .container { padding: 0; }
-/* line 125, sass/style.scss */
+/* line 186, sass/style.scss */
 header#header img { width: 100%; }
 
 /* 2.Article */
-/* line 132, sass/style.scss */
+/* line 193, sass/style.scss */
 article#home button { color: #ffffff; height: 36px; resize: none; width: 100%; }
-/* line 138, sass/style.scss */
+/* line 199, sass/style.scss */
 article#home .badge { background-color: #f71b1b; }
-/* line 141, sass/style.scss */
+/* line 202, sass/style.scss */
 article#home h2 { color: #f71b1b; font-size: 20px; font-weight: bold; }
+
+/* 5.Sections */
+/* line 209, sass/style.scss */
+section#parceiros { position: relative; }
 
 /* 4.Footer */
 /* 5.Agencia */
-/* line 152, sass/style.scss */
+/* line 217, sass/style.scss */
 #copy { background: #000000; padding: 10px 0; }

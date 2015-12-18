@@ -40,8 +40,9 @@
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Sans:400,700);
 // $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif
+$font-family-sans-serif:  'Droid Sans', Arial, sans-serif;
 // $font-family-serif:       Georgia, "Times New Roman", Times, serif
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
@@ -65,6 +66,7 @@
 
 //** By default, this inherits from the `<body>`.
 // $headings-font-family:    inherit
+$headings-font-family: 'Oswald', sans-serif;
 // $headings-font-weight:    500
 // $headings-line-height:    1.1
 // $headings-color:          inherit
@@ -78,6 +80,7 @@
 // [converter] If $bootstrap-sass-asset-helper if used, provide path relative to the assets load path.
 // [converter] This is because some asset helpers, such as Sprockets, do not work with file-relative paths.
 // $icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/")
+$icon-font-path: "" !default;
 
 //** File name for all font files.
 // $icon-font-name:          "glyphicons-halflings-regular"

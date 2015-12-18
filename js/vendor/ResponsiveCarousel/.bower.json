@@ -1,0 +1,36 @@
+{
+  "name": "Responsive Carousel",
+  "version": "1.2.0",
+  "description": "Simple and friendly responsive carousel plugin for jQuery. This library accept any type of content, single or multiple visible elements and multiple galleries in one page. Also, you can navigate with swipe (using hammer.js) and keyboard arrows by default, customice autoRotate options and more!",
+  "keywords": [
+    "responsive",
+    "gallery",
+    "animation",
+    "swipe",
+    "keyboard"
+  ],
+  "main": [
+    "responsiveCarousel.min.js"
+  ],
+  "ignore": [
+    "js",
+    "LICENSE.txt",
+    "README.md",
+    "responsiveCarousel.jquery.json"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/basilio/responsiveCarousel",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.0",
+    "commit": "2d1bde29ec049ec9d7fc1634b1dcbed5ce354440"
+  },
+  "_source": "git://github.com/basilio/responsiveCarousel.git",
+  "_target": "~1.2.0",
+  "_originalSource": "responsive-carousel",
+  "_direct": true
+}
