@@ -48,6 +48,51 @@ $height:768px;
   color: #000 !important;
   margin: 0 30px;
 }
+.btn-danger {background-color: #000000;
+border-color: #000000;}
+.btn-danger:hover {background-color: #666666;
+border-color: #666666;}
+.form-control {
+  height: 34px;
+  background-color: #eee;
+  border: none;
+}
+.input-group {
+  @include border-radius(4px, 4px);
+  background: rgb(255, 255, 255);
+  zoom: 1;
+  padding: 5px;
+}
+.form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+::-webkit-input-placeholder {
+  color: #7C7C7C;
+}
+:-moz-placeholder {
+  color: #7C7C7C;
+}
+::-moz-placeholder {
+  color: #7C7C7C;
+}
+:-ms-input-placeholder {
+  color: #7C7C7C;
+}
+.input-group-addon {
+  color: #7C7C7C;
+  border: none !important;
+}
+.mensagem .input-group-addon {
+  vertical-align: top;
+}
+.row-no-margin {
+  margin: 0;
+}
 
 /* Tags Ajusts */
 * {
@@ -58,35 +103,50 @@ body {
   overflow-x: hidden;
 
 }
-
-
-
-
+input {
+  color: #7C7C7C;
+}
+textarea {
+  color: #7C7C7C;
+  height: 94px !important;
+  resize: none;
+  border: none;
+}
+button {
+  border: none 0 #ffffff;
+}
+/* 1.Header */
 header#header {
-  img {
-     width: 100%;
-    }
   overflow: hidden;
   height: 397px;
-}
-
-section#home {
-.form-control {height: 34px; background-color: #eee; border:none;}
-.form-horizontal .form-group { margin-left: 0; margin-right: 0;  }
-.input-group { -moz-border-radius: 4px;/*Firefox*/ -webkit-border-radius: 4px ;/*Safari, Chrome*/
-  border-radius: 4px; background: rgb(255, 255, 255);  zoom: 1; padding: 5px; }
-.form-control { -webkit-box-shadow: none;  box-shadow: none; }
-.form-control:focus { -webkit-box-shadow: none;  box-shadow: none;}
-::-webkit-input-placeholder { color: #7C7C7C; }
-:-moz-placeholder {  color: #7C7C7C; }
-::-moz-placeholder {   color:#7C7C7C;}
-:-ms-input-placeholder { color:#7C7C7C; }
-.input-group-addon  { color: #7C7C7C; border: none; }
-.mensagem  .input-group-addon  { vertical-align:top; }
-input { color: #7C7C7C; }
-textarea  { color: #7C7C7C; height: 94px !important; resize: none; border: none; }
-button  { color: #ffffff; height: 44px; resize: none; }
+  .container {
+    padding: 0;
+  }
+  img {
+    width: 100%;
+  }
 
 }
-/* 4.Agencia */
+/* 2.Article */
+article#home {
+  button {
+    color: #ffffff;
+    height: 36px;
+    resize: none;
+    width: 100%;
+  }
+  .badge {
+    background-color: #f71b1b;
+  }
+  h2 {
+    color: #f71b1b;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+/* 4.Footer */
+footer#footer {
+
+}
+/* 5.Agencia */
 #copy { background: #000000; padding: 10px 0; }
